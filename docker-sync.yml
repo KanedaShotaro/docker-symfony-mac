@@ -1,0 +1,7 @@
+version: '2'
+options:
+  compose-file-path: 'docker-compose-mac.yml'
+syncs:
+  application-sync:
+    src: './'
+    sync_userid: '1000'
